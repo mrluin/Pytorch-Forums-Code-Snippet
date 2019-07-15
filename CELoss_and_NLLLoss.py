@@ -2,6 +2,9 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
+"""
+    # The relationship between CELoss and NLLLLoss
+"""
 
 # convert to onehot label
 def to_onehot(y, nb_classes):

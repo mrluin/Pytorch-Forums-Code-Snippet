@@ -2,6 +2,10 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
+"""
+Compare the difference between CELoss and BCELoss in PyTorch
+"""
+
 # CrossEntropyLoss
 class MyCEModel(nn.Module):
     def __init__(self):

@@ -2,6 +2,11 @@ import torch
 import torch.nn as nn
 
 
+"""
+    # calculate mean and std in BN manually
+"""
+
+
 '''# BatchNorm2d test'''
 # nte 64 channels in
 bn = nn.BatchNorm2d(64)
